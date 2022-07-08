@@ -39,7 +39,7 @@ namespace Projeto2
         //Para utilizar o 'await' a função deve ser async Task
         public async Task ConsumirBateriaAsync() 
         {
-            int atraso = 200;
+            int atraso = 1000;
 
             while(Ligado == true && _bateria.Carga > 0)
             {
